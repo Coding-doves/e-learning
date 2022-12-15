@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="icon/favicon-16x16.png" type="image/x-icon">
+
+    <!--css link-->
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- Bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Bootstrap css link for icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <!-- navigation-->
+    <!-- As a brief -->
+    <nav class="navbar" style="background-color: #1f1f1f;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #f6f6f6;font-size: 1.6rem;font-weight: 900;" href="index.html">H4U</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
+            <!-- login modal-->
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel"><i class="bi bi-person-bounding-box"></i> &nbsp;&nbsp; LOGIN</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-envelope-at"></i></span>
+                            <input type="email" class="form-control" required placeholder="Email" aria-label="email" aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-pass"></i></span>
+                            <input type="password" class="form-control" required placeholder="Password" aria-label="password" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button class="btn" style="background-color: #40f226;color: #f6f6f6;" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Register</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2"><i class="bi bi-person-bounding-box"></i> REGISTER</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-2">
+                            <span class="input-group-text">First and last name</span>
+                            <input type="text" aria-label="First name" class="form-control" required>
+                            <input type="text" aria-label="Last name" class="form-control" required>
+                        </div>
+                        <div class="input-group flex-nowrap mb-2">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-envelope-at"></i></span>
+                            <input type="email" class="form-control" placeholder="Email" required aria-label="email" aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="input-group flex-nowrap mb-2">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-pass"></i></span>
+                            <input type="password" class="form-control" required placeholder="Password" aria-label="password" aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                            <label class="form-check-label" for="flexCheckDefault">
+                                I agree with the <a href="#"> terms presented</a>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button class="btn" style="background-color: #40f226;color: #f6f6f6;" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to Login</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <a class="btn" style="background-color: #40f226;color: #f6f6f6;" data-bs-toggle="modal" href="#exampleModalToggle" role="button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="bi bi-person-bounding-box"></i> Login</a>
+            <!-- login modal end's here-->
+
+             <!-- menu modal-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #f6f6f6;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        
+    </nav>
+    
+    <!-- As a menu -->
+    <nav class="navbar navbar-dark" style="background-color: rgba(130, 137, 142, 0.7);">
+        <div class="container-fluid">
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                </ul> 
+            </div>    
+        </div>
+    </nav>
+
+    <div class="container" style="background-image: url('image/fer-moreno-bJFcDT64jrw-unsplash.jpg');">
+        <div class="row">
+            <div class="col-md-6 contain">
+                <section>
+                    13 Oshodi Road, Ikeja Lagos <br>
+                    Nigera <br>
+                    <br><a href="#"><i class="bi bi-envelope-at"></i> <i> example@email.com</i></a>
+                </section>            
+            </div>
+            <div class="col-md-6 contain2">
+                <section>
+                    <a href="#"><i class="bi bi-whatsapp"></i> <i> www.whatsapp.com</i></a><br>
+                    <a href="#"><i class="bi bi-telegram"></i> <i> www.telegram.com</i></a><br>
+                    <a href="#"><i class="bi bi-linkedin"></i> <i> www.linkedin.com</i></a><br>
+                    <a href="#"><i class="bi bi-discord"></i> <i> www.discord.com</i></a>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="container">
+        <h4 style="color: #40f226;">Leave Us your Suggest/Comment</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <h5 style="color: #40f226;">please input your email</h5>
+                <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text" id="addon-wrapping"><i class="bi bi-envelope-at"></i></span>
+                    <input type="email" class="form-control" placeholder="Email" required aria-label="email" aria-describedby="addon-wrapping">
+                </div>
+                <h6>Suggestion</h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem assumenda, commodi mollitia esse sequi quia molestiae.</p>
+            </div>
+            <div class="col-md-6">
+                <h5 style="color: #40f226;">what do you have to say?</h5>
+                <div class="input-group flex-nowrap mb-2">
+                    <textarea name=" " id="" cols="60" rows="10" style="border: 3px solid #82898e;"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--foot note-->
+     <footer>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>You Can Connect With Us</h4>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-telegram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-discord"></i></a>
+            </div>
+            <div class="col-md-8">
+                <h4>H4U</h4>
+                <img src="icon/h4u.png"><br>
+                <span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nobis doloribus temporibus error in dicta? Tempora, minus. Illum nam, voluptatem aperiam tempora hic corrupti maiores fugiat blanditiis facilis, voluptas quas.
+                    <br><a href="#"><i class="bi bi-envelope-at"></i> <i> example@email.com</i></a>
+                </span>     
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap js link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

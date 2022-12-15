@@ -1,0 +1,175 @@
+
+
+.nav-item .nav-link{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.clearfix{
+    content: "";
+    height: 40px;
+}
+.banner{
+    min-height: 350px;
+}
+.banner img{
+    height: 380px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+.container img{
+    width: 100%;
+    height: 400px;
+}
+.write-up{
+    position: absolute;
+    padding: 11px;
+    background-color: rgba(64, 242, 38, .8);
+    right: 12px;
+    top: 0;
+    min-height: 140px;
+    width: 350px;
+}
+.write-up a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.write-up .button{
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 2px dashed #82898e;
+    background-color: #1f1f1f;
+    color: #40f226;
+    transition: 0.3s;
+    transition-timing-function: linear;
+}
+.write-up .button:hover{
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f6f6f6;
+    border: 2px dashed #1f1f1f;
+}
+.list{
+    position: relative;
+    min-height: 300px;
+    margin: 2rem;
+}
+.list img{
+    width: 100%;
+    position: relative;
+    height: 300px;
+}
+.list div{
+    background-color: rgba(31, 31, 31, .4);
+    height: 300px;
+    width: 0;
+    padding: 8px;
+    position: absolute;
+    top:0;
+    visibility: hidden;
+    transition: width .3s;
+    transition-timing-function: linear;
+}
+.list div a{
+    text-decoration: none;
+    color: #f6f6f6;
+}
+.list div a:hover{
+    color: #40f226;
+}
+.list:hover div{
+    width: 100%;
+    visibility: visible;
+}
+.lass{
+    min-height: 400px;
+    margin-bottom: 3rem;
+    background-color: #1f1f1f;
+    padding: 8px;
+    border-radius: 8px;
+}
+.lass img{
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 4px 1px rgba(246, 246, 246, .3);
+}
+.lass div{
+    border: .5px solid #82898e;
+    padding: 8px;
+    border-radius: 8px;
+}
+.lass div a{
+    text-decoration: none;
+    color: #f6f6f6;
+}
+.lass div a:hover{
+    color: #40f226;
+}
+.lass div:hover{
+    border: .5px solid #40f226;
+}
+footer{
+    letter-spacing: 1px;
+    border: 4px solid #1f1f1f;
+    margin: 4px;
+    padding: 15px;
+    min-height: 170px;
+    background-color: #1f1f1f;
+    color: #f6f6f6;
+}
+footer .col-md-4 a{
+    color: #f6f6f6;
+}
+footer .col-md-4 .bi{
+    margin: 15px;
+    font-size: 1.3em;
+    color: #40f226;
+}
+footer .col-md-4 a .bi:hover{
+    color: #f6f6f6;
+    font-size: 1.5em;
+    transform: translateY(-15%);
+}
+footer .col-md-8 img{
+    height: 50px;
+    width: 50px;
+}
+footer .col-md-8 .bi{
+    margin: 15px;
+    font-size: 1.3em;
+    color: #40f226;
+}
+footer .col-md-8 a{
+    color: #40f226;
+}
+.chevron{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #82898e;
+    position: fixed;
+    right: 0;
+    bottom: 8px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 5px;
+    transition: .5s;
+    scroll-behavior: smooth;
+    box-shadow: 2px 1px 3px 1px rgba(246, 246, 246, .5);
+    display: none;
+}
+.chevron a{
+    color: #1f1f1f;
+    font-size: 2.5rem;
+}
+.chevron:hover{
+    background-color: #1f1f1f;
+}
+.chevron a:hover{
+    color: #f6f6f6;
+}

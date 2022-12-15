@@ -1,0 +1,130 @@
+
+nav{
+    box-shadow: 2px 3px 5px 1px rgba(31, 31, 31, .4);
+}
+.nav-item .nav-link{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.list-group .active{
+    background-color: #1f1f1f !important;
+    border: 1px solid #40f226 !important;
+}
+.clearfix{
+    content: "";
+    height: 40px;
+}
+.banner{
+    min-height: 350px;
+}
+.banner img{
+    height: 380px;
+    width: 100%;
+}
+.ongoing{
+    position: relative;
+    min-height: 380px;
+}
+.ongoing img{
+    position: relative;
+    height: 380px;
+    width: 100%;
+}
+.side{
+    min-height: 200px;
+    background-color: #1f1f1f;
+}
+.side span{
+    padding: 5px;
+    top: 0;
+    width: 50%;
+}
+.side span a{
+    text-decoration: none;
+    color: #f6f6f6;
+}
+.side span a:hover{
+    color: #40f226;
+}
+.side span a:hover{
+    width: 250px;
+    height: 250px;
+}
+.list{
+    position: relative;
+    min-height: 300px;
+    margin: 2rem;
+}
+.list img{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.list div{
+    background-color: rgba(31, 31, 31, .4);
+    height: 300px;
+    width: 0;
+    display: block;
+    position: absolute;
+    top:0;
+    visibility: hidden;
+    transition: width .3s;
+    transition-timing-function: linear;
+}
+.list span{
+    position: absolute;
+    width: 0;
+    min-height: 200px;
+    background-color: #1f1f1f;
+    padding: 5px;
+    top: 0;
+    color: #f6f6f6;
+    visibility: hidden;
+    transition: width .3s;
+    transition-timing-function: linear;
+}
+.list span a{
+    text-decoration: none;
+    color: #f6f6f6;
+}
+.list span a:hover{
+    color: #40f226;
+}
+.list span a:hover{
+    width: 250px;
+    height: 250px;
+}
+.list:hover span{
+    width: 200px;
+    visibility: visible;
+}
+.list:hover div{
+    width: 100%;
+    visibility: visible;
+}
+.chevron{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #82898e;
+    position: fixed;
+    right: 0;
+    bottom: 8px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 5px;
+    transition: .5s;
+    scroll-behavior: smooth;
+    box-shadow: 2px 1px 3px 1px rgba(246, 246, 246, .5);
+    display: none;
+}
+.chevron a{
+    color: #1f1f1f;
+    font-size: 2.5rem;
+}
+.chevron:hover{
+    background-color: #1f1f1f;
+}
+.chevron a:hover{
+    color: #f6f6f6;
+} 
